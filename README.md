@@ -2,7 +2,7 @@
 
 A professional and responsive portfolio template built with HTML, CSS, and JavaScript.
 Designed for developers, freelancers, and creatives to showcase their skills, services, and projects with a clean modern layout.
-##✨ Features
+## ✨ Features
 
 Modern, minimal, and professional design
 
