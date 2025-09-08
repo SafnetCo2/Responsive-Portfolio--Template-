@@ -55,13 +55,17 @@ JavaScript (ES6) – interactivity (menu + chatbot)
 ##  Screenshots
 
 ### Home Page
-![Home Screenshot](images/screenshot-home.png)
+![Home Screenshot](images/Screenshot%20from%202025-09-08%2023-02-45.png)
 
 ### Projects Section
-![Projects Screenshot](images/screenshot-projects.png)
+![Projects Screenshot](images/About.png)
 
 ### Contact Form + Chatbot
-![Contact Screenshot](images/screenshot-contact.png)
+![Contact Screenshot](images/contact.png)
+## responsive to all screens
+![responsive Screenshot](images/responsiveness.png)
+## services
+![services Screenshot](images/services.png)
 
 
 ## 📜 License  
