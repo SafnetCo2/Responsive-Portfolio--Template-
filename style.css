@@ -8,6 +8,7 @@ header {
   display:flex; justify-content:space-between; align-items:center;
   padding:1rem 2rem; background:#2a9d8f; color:#fff; z-index:1000;
 }
+
 header .logo {font-size:1.5rem; font-weight:bold;}
 nav {display:flex; gap:1.2rem;}
 nav a {color:#fff; text-decoration:none; font-weight:500;}
@@ -28,6 +29,11 @@ nav a:hover {color:#e9c46a;}
 .btn-primary {
   background:#f4a261; color:#fff; padding:0.8rem 1.5rem;
   border-radius:6px; text-decoration:none; font-weight:bold; transition:0.3s;
+}
+.hero h2{
+    color: #4db6ac
+    ;
+    letter-spacing: .2rem;
 }
 .btn-primary:hover {background:#e76f51;}
 
@@ -96,4 +102,59 @@ footer {background:#2a9d8f; color:#fff; padding:2rem; text-align:center;}
   nav {display:none; position:absolute; top:60px; right:0; flex-direction:column; background:#2a9d8f; width:100%; padding:1rem;}
   nav.active {display:flex;}
   .menu-toggle {display:flex;}
+}
+
+
+/*about/
+
+/* About Section */
+/* About Section - Full Width */
+.about {
+  background: #fafafa;
+  padding: 4rem 2rem;
+  width: 100%;       /* takes the full width */
+  margin: 0;         /* removes auto-centering */
+  text-align: left;  /* left-aligned text */
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2a9d8f;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  max-width: 100%;   /* paragraph can also span full width */
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 1.5rem;
+  }
+  .about h2 {
+    font-size: 1.6rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 2rem 1rem;
+  }
+  .about h2 {
+    font-size: 1.4rem;
+  }
+  .about p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
 }
