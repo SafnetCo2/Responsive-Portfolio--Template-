@@ -50,3 +50,7 @@ chatInput.addEventListener("keypress", (e) => {
         }, 600);
     }
 });
+// Footer Last Updated
+const lastUpdated = document.getElementById("last-updated");
+const now = new Date();
+lastUpdated.textContent = "Last Updated: " + now.toLocaleDateString();
