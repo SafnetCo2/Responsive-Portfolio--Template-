@@ -70,17 +70,35 @@
     <h2>My Recent Work</h2>
     <div class="project-container">
       <div class="project-card">
-        <p>Coming soon</p>
         <img src="images/responsiveness.png" alt="Project One">
         <h3>Project One</h3>
-        <p>A sample project description.</p>
+            <p>A clean and modern personal portfolio template built with HTML, CSS, and JavaScript. Fully 
+            responsive for mobile, tablet, and desktop.</p>
+
+    <!-- Tech stack badges -->
+        <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
         <a href="https://safnetco2.github.io/Responsive-Portfolio--Template-/" class="btn">View Project</a>
       </div>
       <div class="project-card">
         <img src="images/kievweatherforecast.png" alt="Project Two">
         <h3>Project Two</h3>
-        <p>A sample project description.</p>
+            <p>A 5-day weather forecast app powered by the OpenWeatherMap API. Users can search by city and get real-time weather updates with icons.</p>
+            
+    <!-- Tech stack badges -->
+    <div class="tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>API</span>
+    </div>
+
+
         <a href="https://five-days-weather-forecast.onrender.com/" class="btn">View Project</a>
+        
       </div>
       <div class="project-card">
         <p>coming soon</p>
@@ -103,12 +121,19 @@
     </form>
   </section>
 
-  <!-- ================= Chatbox ================= -->
-  <div class="chatbox" id="chatbox">
-    <div class="chat-header">Chat with us</div>
-    <div class="chat-body" id="chat-body"></div>
-    <input type="text" id="chat-input" placeholder="Type a message...">
+<!-- Chat Toggle Button -->
+<button id="chat-toggle" class="chat-toggle">💬</button>
+
+<!-- ================= Chatbox ================= -->
+<div class="chatbox" id="chatbox">
+  <div class="chat-header">
+    Chat with us
+    <span id="chat-close" class="chat-close">✖</span>
   </div>
+  <div class="chat-body" id="chat-body"></div>
+  <input type="text" id="chat-input" placeholder="Type a message...">
+</div>
+
 
   <!-- ================= Footer ================= -->
   <footer>

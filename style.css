@@ -158,3 +158,78 @@ footer {background:#2a9d8f; color:#fff; padding:2rem; text-align:center;}
     line-height: 1.6;
   }
 }
+
+.tags {
+  margin: 0.8rem 0;
+}
+
+.tags span {
+  display: inline-block;
+  background: #e9c46a;
+  color: #333;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin: 0 0.3rem 0.3rem 0;
+  font-weight: 500;
+}
+
+
+/* Initially hide chatbox */
+.chatbox {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #2a9d8f;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-close {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#chat-input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+
+/* Chat toggle button */
+.chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
