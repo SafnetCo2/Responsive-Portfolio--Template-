@@ -67,10 +67,11 @@ JavaScript (ES6) – interactivity (menu + chatbot)
 ## services
 ![services Screenshot](images/services.png)
 
-
+# live demo 
+![Shopify website](https://shopify-website-jr0p.onrender.com/)
 ## 📜 License  
 This project is licensed under the **MIT License**.  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+![License: MIT](LICENSE)  
 
  – free to use and modify.
