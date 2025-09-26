@@ -1,181 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Template</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ================= Navbar ================= -->
+    <header>
+      <div class="logo">Portfolio</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
 
-  <!-- ================= Navbar ================= -->
-  <header>
-    <div class="logo">Portfolio</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="menu-toggle" id="menu-toggle">
-      <span></span><span></span><span></span>
-    </div>
-  </header>
+    <!-- ================= Hero ================= -->
+    <section id="home" class="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <h2 class="head">
+        An Aspiring Junior Web Developer | Frontend & Backend Enthusiast |
+        Problem Solver
+      </h2>
 
-  <!-- ================= Hero ================= -->
-  <section id="home" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <h2 class="head">An Aspiring Junior Web Developer | Frontend & Backend Enthusiast | Problem Solver</h2>
+      <p>
+        I create clean, modern, and responsive websites to help businesses and
+        individuals establish their online presence.
+      </p>
 
-        <p>
-        I create clean, modern, and responsive websites to help businesses
-        and individuals establish their online presence.
-        </p>
+      <a href="#projects" class="btn-primary">View Projects</a>
+    </section>
 
+    <!-- ================= About ================= -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm <strong>Josephine Nzioka</strong>, an aspiring Junior Web
+        Developer with a background in Business Management and Administration. I
+        specialize in building clean, responsive, and user-friendly websites
+        using <strong>HTML, CSS, JavaScript, React, Python, and C#</strong>.
+      </p>
+      <p>
+        With my combined experience in technology and business, I create digital
+        solutions that not only look good but also deliver real value to
+        businesses and individuals. I'm passionate about problem-solving,
+        continuous learning, and helping clients bring their ideas to life
+        online.
+      </p>
+    </section>
 
-    <a href="#projects" class="btn-primary">View Projects</a>
-  </section>
+    <!-- ================= Services ================= -->
+    <section id="services" class="services">
+      <h2>Services</h2>
+      <div class="service-grid">
+        <div class="service">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+        </div>
+        <div class="service">
+          <i class="fas fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+        </div>
+        <div class="service">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Consulting</h3>
+        </div>
+      </div>
+    </section>
 
-  <!-- ================= About ================= -->
-  <section id="about" class="about">
-  <h2>About Me</h2>
-  <p>
-    Hi, I'm <strong>Josephine Nzioka</strong>, an aspiring Junior Web Developer with a background 
-    in Business Management and Administration. I specialize in building clean, 
-    responsive, and user-friendly websites using <strong>HTML, CSS, JavaScript, React, Python, and C#</strong>. 
-  </p>
-  <p>
-    With my combined experience in technology and business, I create digital solutions 
-    that not only look good but also deliver real value to businesses and individuals. 
-    I'm passionate about problem-solving, continuous learning, and helping clients 
-    bring their ideas to life online.
-  </p>
-</section>
+    <!-- ================= Projects ================= -->
+    <section id="projects" class="projects">
+      <h2>My Recent Work</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="images/responsiveness.png" alt="Project One" />
+          <h3>Project One</h3>
+          <p>
+            A clean and modern personal portfolio template built with HTML, CSS,
+            and JavaScript. Fully responsive for mobile, tablet, and desktop.
+          </p>
 
-
-  <!-- ================= Services ================= -->
-  <section id="services" class="services">
-    <h2>Services</h2>
-    <div class="service-grid">
-      <div class="service"><i class="fas fa-code"></i><h3>Web Development</h3></div>
-      <div class="service"><i class="fas fa-paint-brush"></i><h3>UI/UX Design</h3></div>
-      <div class="service"><i class="fas fa-lightbulb"></i><h3>Consulting</h3></div>
-    </div>
-  </section>
-
-  <!-- ================= Projects ================= -->
-  <section id="projects" class="projects">
-    <h2>My Recent Work</h2>
-    <div class="project-container">
-      <div class="project-card">
-        <img src="images/responsiveness.png" alt="Project One">
-        <h3>Project One</h3>
-            <p>A clean and modern personal portfolio template built with HTML, CSS, and JavaScript. Fully 
-            responsive for mobile, tablet, and desktop.</p>
-
-    <!-- Tech stack badges -->
-        <div class="tags">
+          <!-- Tech stack badges -->
+          <div class="tags">
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
+          </div>
+          <a
+            href="https://safnetco2.github.io/Responsive-Portfolio--Template-/"
+            class="btn"
+            >View Project</a
+          >
         </div>
-        <a href="https://safnetco2.github.io/Responsive-Portfolio--Template-/" class="btn">View Project</a>
+        <div class="project-card">
+          <img src="images/kievweatherforecast.png" alt="Project Two" />
+          <h3>Project Two</h3>
+          <p>
+            A 5-day weather forecast app powered by the OpenWeatherMap API.
+            Users can search by city and get real-time weather updates with
+            icons.
+          </p>
+
+          <!-- Tech stack badges -->
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>API</span>
+          </div>
+
+          <a href="https://five-days-weather-forecast.onrender.com/" class="btn"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <p>coming soon</p>
+          <img src="images/Tasteabd bite.png" alt="Project Three" />
+          <h3>Project Three</h3>
+          <p>A sample project description.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <p>shopify Demo</p>
+          <img src="images/shopify5.png" alt="Project Three" />
+          <h3>Project Three</h3>
+          <p>A sample project description.</p>
+          <a href="https://shopify-website-jr0p.onrender.com" class="btn"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <p>coming soon</p>
+          <img src="images/GoogleLogin.png" alt="Project Login" />
+          <h3>Project Login</h3>
+          <p>A sample project description.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <p>coming soon</p>
+          <img src="assets/service.png" alt="Project four" />
+          <h3>Project Automobile</h3>
+          <p>A sample project description.</p>
+
+          <a href="https://portmoody-collision.onrender.com/" class="btn"
+            >View Project</a
+          >
+        </div>
       </div>
-      <div class="project-card">
-        <img src="images/kievweatherforecast.png" alt="Project Two">
-        <h3>Project Two</h3>
-            <p>A 5-day weather forecast app powered by the OpenWeatherMap API. Users can search by city and get real-time weather updates with icons.</p>
-            
-    <!-- Tech stack badges -->
-    <div class="tags">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>API</span>
+    </section>
+
+    <!-- ================= Contact ================= -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Chat Toggle Button -->
+    <button id="chat-toggle" class="chat-toggle">💬</button>
+
+    <!-- ================= Chatbox ================= -->
+    <div class="chatbox" id="chatbox">
+      <div class="chat-header">
+        Chat with us
+        <span id="chat-close" class="chat-close">✖</span>
+      </div>
+      <div class="chat-body" id="chat-body"></div>
+      <input type="text" id="chat-input" placeholder="Type a message..." />
     </div>
 
-
-        <a href="https://five-days-weather-forecast.onrender.com/" class="btn">View Project</a>
-        
-      </div>
-      <div class="project-card">
-        <p>coming soon</p>
-        <img src="images/Tasteabd bite.png" alt="Project Three">
-        <h3>Project Three</h3>
-        <p>A sample project description.</p>
-        <a href="#" class="btn">View Project</a>
-      </div>
-      <div class="project-card">
-        <p>coming soon</p>
-        <img src="images/shopify5.png" alt="Project Three">
-        <h3>Project Three</h3>
-        <p>A sample project description.</p>
-        <a href="#" class="btn">View Project</a>
-      </div>
-      <div class="project-card">
-        <p>coming soon</p>
-        <img src="images/GoogleLogin.png" alt="Project Login">
-        <h3>Project Login</h3>
-        <p>A sample project description.</p>
-        <a href="#" class="btn">View Project</a>
-        
-
-      </div>
-            <div class="project-card">
-        <p>coming soon</p>
-        <img src="assets/service.png" alt="Project four">
-        <h3>Project Automobile</h3>
-        <p>A sample project description.</p>
-        
-
-
-        <a href="https://portmoody-collision.onrender.com/" class="btn">View Project</a>
-
-      </div>
-    </div>
-
-
-  </section>
-
-  <!-- ================= Contact ================= -->
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-<!-- Chat Toggle Button -->
-<button id="chat-toggle" class="chat-toggle">💬</button>
-
-<!-- ================= Chatbox ================= -->
-<div class="chatbox" id="chatbox">
-  <div class="chat-header">
-    Chat with us
-    <span id="chat-close" class="chat-close">✖</span>
-  </div>
-  <div class="chat-body" id="chat-body"></div>
-  <input type="text" id="chat-input" placeholder="Type a message...">
-</div>
-
-
-  <!-- ================= Footer ================= -->
-  <footer>
-    <p>&copy; 2025 Portfolio Template. All rights reserved.</p>
+    <!-- ================= Footer ================= -->
+    <footer>
+      <p>&copy; 2025 Portfolio Template. All rights reserved.</p>
       <p id="last-updated"></p>
 
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
-    </div>
-  </footer>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
